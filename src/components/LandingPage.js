@@ -33,11 +33,13 @@ const LandingPage = () => {
 
             {/* About Us Section */}
             <section className="py-20 px-10">
-                <h2 className="text-3xl font-bold mb-5 text-neon-green">About Us</h2>
-                <p className="text-lg leading-relaxed">
-                    Embark on a journey with our team of dedicated game developers, passionate about crafting unique worlds.
-                    Our games offer a blend of thrill, adventure, and unparalleled excitement. Dive in, and let's redefine gaming together.
-                </p>
+                <div className="text-center">
+                    <h2 className="text-3xl font-bold mb-5 text-neon-green">About Us</h2>
+                    <p className="text-lg leading-relaxed">
+                        Embark on a journey with our team of dedicated game developers, passionate about crafting unique worlds.
+                        Our games offer a blend of thrill, adventure, and unparalleled excitement. Dive in, and let's redefine gaming together.
+                    </p>
+                </div>
             </section>
 
         </div>
